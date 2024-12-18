@@ -15,7 +15,7 @@ export default defineThemeConfig({
   profile: {
     avatar: '/logo.png',
     name: 'Wendi',
-    description: 'Coding Like Crafting Poetry',
+    description: 'Coding like crafting poetry',
     location: 'Beijing, China',
     // circle: true,
     // organization: '',

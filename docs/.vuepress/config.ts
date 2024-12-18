@@ -7,7 +7,7 @@ export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
   title: "Wendi's Blog",
-  description: "让每一行代码成为思想的诗篇",
+  description: "Coding like crafting poetry",
   head: [
     ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.png" }],
     ["meta", { name: "keywords", content: "fanwendi" }],
