@@ -85,15 +85,16 @@ export const theme: Theme = plumeTheme({
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
      */
-    // comment: {
-    //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-    //   comment: true,
-    //   repo: '',
-    //   repoId: '',
-    //   categoryId: '',
-    //   mapping: 'pathname',
-    //   reactionsEnabled: true,
-    //   inputPosition: 'top',
-    // },
+    comment: {
+      provider: "Giscus", // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+      comment: true,
+      repo: 'fanwendi8/fanwendi.fun',
+      repoId: 'R_kgDONe3slg',
+      category:"General",
+      categoryId: 'DIC_kwDONe3sls4ClV0V',
+      mapping: 'pathname',
+      reactionsEnabled: true,
+      inputPosition: 'top',
+    },
   },
 });
