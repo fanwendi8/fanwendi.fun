@@ -13,6 +13,8 @@ export const theme: Theme = plumeTheme({
   },
 
   editLink: false,
+  changelog: false,
+  lastUpdated: false,
 
   footer: { message:'', copyright: 'Copyright © 2024-present fanwendi.' },
 
