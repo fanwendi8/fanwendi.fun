@@ -6,7 +6,7 @@ import { sidebar } from './sidebar'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/favicon.png',
+  logo: '/logo.png',
 
   appearance: true,
 

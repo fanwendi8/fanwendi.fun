@@ -9,7 +9,8 @@ export default defineUserConfig({
   title: "Wendi's Blog",
   description: "Coding like crafting poetry",
   head: [
-    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.png" }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
     ["meta", { name: "keywords", content: "fanwendi" }],
     ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edg" }],
     ["meta", { name: "msapplication-TileColor", content: "#da532c" }],
