@@ -15,14 +15,13 @@ export const theme: Theme = plumeTheme({
   editLink: false,
   changelog: false,
   lastUpdated: false,
+  prevPage: false,
+  nextPage: false,
 
-  footer: { message:'', copyright: 'Copyright © 2024-present fanwendi.' },
+  footer: { message:'', copyright: 'Copyright © 2024-present fanwendi All Rights Reserved.' },
 
   blog: {
     postList: false, // 禁止生成博客文章列表页
-    // tagsLink: '/blog/tags/',
-    // categoriesLink: '/blog/categories/',
-    // archiveLink: '/blog/archives/',
   },
 
   plugins: {

@@ -58,3 +58,52 @@
   --vp-sidebar-bg-color: #161618; /* 侧边栏背景 */
   --vp-code-block-bg: #202127; /* 代码块背景 */
 }
+
+
+/**
+ * Typography
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-font-family-base:
+    "Fira Sans",
+    "Inter",
+    "Microsoft YaHei",
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --vp-font-family-mono:
+    "Fira Mono",
+    ui-monospace,
+    "Menlo",
+    "Monaco",
+    "Consolas",
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+    font-optical-sizing: auto;
+}
+
+:root:where(:lang(zh)),
+:root:where(:lang(zh-CN)) {
+  --vp-font-family-base:
+    "Fira Sans",
+    "Punctuation SC",
+    "Inter",
+    "Microsoft YaHei",
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+body {
+  font-synthesis: style weight !important;
+}
