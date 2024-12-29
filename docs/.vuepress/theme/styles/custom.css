@@ -103,3 +103,7 @@
     "Segoe UI Symbol",
     "Noto Color Emoji";
 }
+
+.vp-doc .header-anchor::before {
+  opacity: 1;
+}
